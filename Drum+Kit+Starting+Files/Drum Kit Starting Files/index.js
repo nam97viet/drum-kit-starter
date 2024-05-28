@@ -57,3 +57,9 @@ function buttonAnimation(currentKey) {
         activeButton.classList.remove("pressed")
     }, 100)
 }
+
+$(document).ready(function(){
+    $("h1").css("color", "red");
+})
+
+$("button").text("Hey")
